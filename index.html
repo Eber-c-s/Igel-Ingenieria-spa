@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>iGEL Ingeniería y Construcción</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-dim":"#d9dad7","surface-container-highest":"#e2e3e0","on-error-container":"#93000a","outline":"#737a66","on-tertiary-fixed":"#181b24","inverse-surface":"#2e312f","on-primary-container":"#304f00","primary":"#426900","surface-container-lowest":"#ffffff","surface-variant":"#e2e3e0","secondary-fixed-dim":"#c3c6d4","tertiary-container":"#b3b5c1","tertiary-fixed-dim":"#c4c6d2","background":"#f9faf7","tertiary":"#5b5e68","surface-tint":"#426900","on-primary-fixed-variant":"#304f00","surface-container":"#edeeeb","on-error":"#ffffff","on-tertiary":"#ffffff","on-secondary":"#ffffff","surface":"#f9faf7","error":"#ba1a1a","on-primary-fixed":"#112000","on-secondary-container":"#5e626f","surface-container-low":"#f3f4f1","inverse-on-surface":"#f0f1ee","on-secondary-fixed":"#171b26","secondary":"#5a5e6a","primary-container":"#8dc63f","secondary-container":"#dcdfee","surface-container-high":"#e7e8e6","on-primary":"#ffffff","surface-bright":"#f9faf7","error-container":"#ffdad6","on-secondary-fixed-variant":"#434752","primary-fixed":"#b8f568","inverse-primary":"#9dd84f","tertiary-fixed":"#e0e2ee","on-surface-variant":"#424938","outline-variant":"#c2c9b3","on-tertiary-fixed-variant":"#444650","secondary-fixed":"#dfe2f0","primary-fixed-dim":"#9dd84f","on-tertiary-container":"#444751","on-background":"#191c1b","on-surface":"#191c1b"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"gutter-mobile":"1rem","space-lg":"1.5rem","space-3xl":"6rem","margin":"3rem","space-xs":"0.25rem","space-md":"1rem","margin-mobile":"1.25rem","space-2xl":"4rem","gutter":"1.5rem","space-xl":"2.5rem","space-sm":"0.5rem"},"fontFamily":{"headline-sm":["Barlow Condensed"],"display-hero":["Barlow Condensed"],"label-technical":["Barlow Condensed"],"label-metric":["Barlow Condensed"],"headline-xl-mobile":["Barlow Condensed"],"body-md":["\"Source Sans 3\""],"headline-lg":["Barlow Condensed"],"body-lg":["\"Source Sans 3\""],"headline-md":["Barlow Condensed"],"headline-xl":["Barlow Condensed"],"display-hero-mobile":["Barlow Condensed"],"body-sm":["\"Source Sans 3\""]},"fontSize":{"headline-sm":["20px",{"lineHeight":"26px","letterSpacing":"0.02em","fontWeight":"600"}],"display-hero":["56px",{"lineHeight":"60px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-technical":["13px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"600"}],"label-metric":["36px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-xl-mobile":["32px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"700"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"38px","letterSpacing":"0em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"30px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-xl":["44px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"700"}],"display-hero-mobile":["38px",{"lineHeight":"42px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-inverse-surface border-b border-inverse-surface/80 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1280px] mx-auto px-gutter flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md flex-shrink-0"><img alt="Logo iGEL Ingeniería y Construcción" class="h-14 w-48 object-contain" src="logo-igel.png"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-surface-container-lowest leading-none tracking-normal">iGEL</span><span class="font-label-technical text-label-technical text-outline-variant tracking-wider uppercase leading-none mt-1">Ingeniería y Construcción</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="bg-surface-container-highest text-inverse-surface font-headline-sm"><a class="font-body-md text-body-md text-surface-variant hover:text-surface-container-lowest px-3 py-1.5 rounded-lg transition-colors" data-path="servicios" href="#">Servicios</a><a class="font-body-md text-body-md text-surface-variant hover:text-surface-container-lowest px-3 py-1.5 rounded-lg transition-colors" data-path="proyectos" href="#">Proyectos</a><a class="font-body-md text-body-md text-surface-variant hover:text-surface-container-lowest px-3 py-1.5 rounded-lg transition-colors" data-path="nosotros" href="#">Nosotros</a><a class="font-body-md text-body-md text-surface-variant hover:text-surface-container-lowest px-3 py-1.5 rounded-lg transition-colors" data-path="contacto" href="#">Contacto</a></nav><div class="flex items-center gap-space-md flex-shrink-0"><a class="bg-primary-container text-inverse-surface hover:bg-primary-fixed-dim font-headline-sm text-headline-sm px-6 py-2.5 rounded-lg transition-colors flex items-center gap-1.5 tracking-wide" data-path="cotizar" href="#"><span>Cotizar</span><span class="material-symbols-outlined text-[18px]">chevron_right</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- 1. HERO SECTION (Dark Charcoal Background) -->
+<section class="relative w-full bg-[#2E323D] text-surface-container-lowest overflow-hidden">
+<!-- Blueprint / Architectural Vector Watermark -->
+<div class="absolute inset-0 pointer-events-none opacity-10">
+<svg class="w-full h-full" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="48" id="cad-grid" patternunits="userSpaceOnUse" width="48">
+<path d="M 48 0 L 0 0 0 48" fill="none" stroke="#FFFFFF" stroke-width="0.5"></path>
+<circle cx="24" cy="24" fill="#8DC63F" r="1"></circle>
+</pattern>
+</defs>
+<rect fill="url(#cad-grid)" height="100%" width="100%"></rect>
+</svg>
+</div>
+<!-- Architectural Chevron Graphic Accent (Right aligned) -->
+<div class="absolute right-0 top-0 bottom-0 w-1/3 lg:w-5/12 hidden md:flex items-center justify-end pointer-events-none pr-8 xl:pr-16">
+<svg class="h-[85%] w-auto max-w-full text-primary-container opacity-90 drop-shadow-[0_0_40px_rgba(141,198,63,0.15)]" fill="none" viewbox="0 0 240 400" xmlns="http://www.w3.org/2000/svg">
+<path d="M20 40 L160 200 L20 360" stroke="#8DC63F" stroke-linecap="square" stroke-linejoin="miter" stroke-width="36"></path>
+<path d="M90 40 L230 200 L90 360" opacity="0.35" stroke="#8DC63F" stroke-linecap="square" stroke-width="12"></path>
+</svg>
+</div>
+<div class="relative max-w-[1280px] mx-auto px-gutter py-space-2xl md:py-space-3xl z-10">
+<div class="max-w-3xl">
+<!-- Technical Tagline Pill -->
+<div class="inline-flex items-center gap-2 bg-[#22252E] px-3.5 py-1.5 rounded-sm border border-white/10 mb-space-md">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-technical text-label-technical tracking-wider text-surface-variant uppercase">
+            Ingeniería B2B en Chile desde 2012 • Santiago
+          </span>
+</div>
+<!-- Headline -->
+<h1 class="font-display-hero text-display-hero md:text-[64px] md:leading-[64px] text-surface-container-lowest font-bold uppercase tracking-tight mb-space-md">
+          Ingeniería eléctrica y construcción para obras que <span class="text-primary-container">no pueden fallar</span>.
+        </h1>
+<!-- Subtext -->
+<p class="font-body-lg text-body-lg text-surface-container-highest max-w-2xl mb-space-xl leading-relaxed">
+          Diseñamos, construimos y mantenemos instalaciones eléctricas y obras civiles para hospitales, industria y comercio, desde 2012.
+        </p>
+<!-- CTA Buttons -->
+<div class="flex flex-wrap items-center gap-space-md mb-space-2xl">
+<a class="inline-flex items-center justify-center gap-2 bg-primary-container hover:bg-[#7fb636] text-[#22252E] font-headline-sm text-headline-sm px-7 py-3 rounded-sm transition-colors tracking-wide font-bold" href="#contacto">
+<span>Pedir cotización</span>
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 bg-transparent hover:bg-white/5 text-surface-container-lowest border border-white/40 font-headline-sm text-headline-sm px-6 py-3 rounded-sm transition-colors tracking-wide font-semibold" href="#proyectos">
+<span>Ver proyectos</span>
+</a>
+</div>
+<!-- Trust Metrics Bar -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-space-lg border-t border-white/10">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary-container text-[24px] mt-0.5">verified</span>
+<div>
+<p class="font-headline-sm text-headline-sm text-surface-container-lowest font-bold">+12 años</p>
+<p class="font-body-sm text-body-sm text-surface-variant">de trayectoria continua</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary-container text-[24px] mt-0.5">local_hospital</span>
+<div>
+<p class="font-headline-sm text-headline-sm text-surface-container-lowest font-bold">Infraestructura Crítica</p>
+<p class="font-body-sm text-body-sm text-surface-variant">hospitalaria e industrial</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary-container text-[24px] mt-0.5">offline_bolt</span>
+<div>
+<p class="font-headline-sm text-headline-sm text-surface-container-lowest font-bold">Normativa SEC 100%</p>
+<p class="font-body-sm text-body-sm text-surface-variant">y estándares chilenos</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. SERVICIOS SECTION (Crisp White Background) -->
+<section class="w-full bg-surface-container-lowest py-space-3xl" id="servicios">
+<div class="max-w-[1280px] mx-auto px-gutter">
+<!-- Section Header -->
+<div class="mb-space-2xl">
+<div class="flex items-center gap-2 mb-space-xs">
+<span class="w-2.5 h-2.5 bg-primary-container rounded-[1px]"></span>
+<span class="font-label-technical text-label-technical text-primary font-bold uppercase tracking-widest">Capacidades técnicas</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-[#22252E] uppercase font-bold tracking-tight">
+          Un solo equipo para toda la obra
+        </h2>
+<p class="font-body-lg text-body-lg text-tertiary max-w-2xl mt-space-xs">
+          Soluciones integradas de ingeniería que eliminan intermediarios y garantizan continuidad operativa.
+        </p>
+</div>
+<!-- 3-Column Disciplined Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter items-stretch">
+<!-- Columna 1 -->
+<div class="flex flex-col bg-surface-container-lowest p-space-lg rounded-sm border border-[#E2E4DE] border-l-[4px] border-l-primary-container shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between mb-space-md">
+<span class="material-symbols-outlined text-[32px] text-[#22252E]">electric_bolt</span>
+<span class="font-label-technical text-label-technical text-outline font-bold tracking-wider">DIV. 01</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-[#22252E] uppercase mb-space-xs">Ingeniería eléctrica</h3>
+<p class="font-body-md text-body-md text-tertiary mb-space-lg">
+            Desarrollo integral, montaje y certificación bajo rigurosas normas técnicas SEC.
+          </p>
+<ul class="flex flex-col gap-2.5 text-body-sm text-[#22252E] mt-auto pt-space-md border-t border-[#E2E4DE]">
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Instalaciones y levantamiento eléctrico</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Tableros eléctricos (TTA, TDF, fuerza y control)</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Transformadores y subestaciones</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Redes eléctricas de media y baja tensión</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Canalizaciones industriales</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Pruebas y mediciones de precisión (aislación, termografía, mallas)</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Iluminación técnica y estudio lumínico</span>
+</li>
+</ul>
+</div>
+<!-- Columna 2 -->
+<div class="flex flex-col bg-surface-container-lowest p-space-lg rounded-sm border border-[#E2E4DE] border-l-[4px] border-l-primary-container shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between mb-space-md">
+<span class="material-symbols-outlined text-[32px] text-[#22252E]">solar_power</span>
+<span class="font-label-technical text-label-technical text-outline font-bold tracking-wider">DIV. 02</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-[#22252E] uppercase mb-space-xs">Energía y eficiencia</h3>
+<p class="font-body-md text-body-md text-tertiary mb-space-lg">
+            Sistemas de resiliencia energética, descarbonización y optimización de costos para clientes industriales.
+          </p>
+<ul class="flex flex-col gap-2.5 text-body-sm text-[#22252E] mt-auto pt-space-md border-t border-[#E2E4DE]">
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Energías renovables y paneles solares fotovoltaicos</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Generación y autonomía eléctrica (grupos electrógenos y UPS)</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Asesorías técnicas y estudios tarifarios</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Clima, refrigeración y ventilación técnica</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Diseño y modelado de proyectos de ingeniería</span>
+</li>
+</ul>
+</div>
+<!-- Columna 3 -->
+<div class="flex flex-col bg-surface-container-lowest p-space-lg rounded-sm border border-[#E2E4DE] border-l-[4px] border-l-primary-container shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between mb-space-md">
+<span class="material-symbols-outlined text-[32px] text-[#22252E]">foundation</span>
+<span class="font-label-technical text-label-technical text-outline font-bold tracking-wider">DIV. 03</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-[#22252E] uppercase mb-space-xs">Construcción y obras civiles</h3>
+<p class="font-body-md text-body-md text-tertiary mb-space-lg">
+            Edificación y adecuaciones estructurales especializadas para recintos de alta exigencia.
+          </p>
+<ul class="flex flex-col gap-2.5 text-body-sm text-[#22252E] mt-auto pt-space-md border-t border-[#E2E4DE]">
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Obras civiles y fundaciones</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Habilitación técnica de espacios</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Remodelación y ampliación de plantas operativas</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 flex-shrink-0"></span>
+<span>Redes de alcantarillado, sanitarias y canalizaciones subterráneas</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. PROYECTOS SECTION (Off-white Technical Table) -->
+<section class="w-full bg-[#F3F4F1] py-space-3xl border-y border-[#E2E4DE]" id="proyectos">
+<div class="max-w-[1280px] mx-auto px-gutter">
+<!-- Section Header -->
+<div class="mb-space-2xl">
+<div class="flex items-center gap-2 mb-space-xs">
+<span class="w-2.5 h-2.5 bg-primary-container rounded-[1px]"></span>
+<span class="font-label-technical text-label-technical text-primary font-bold uppercase tracking-widest">Trayectoria comprobada</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-[#22252E] uppercase font-bold tracking-tight">
+          Obras donde ya trabajamos
+        </h2>
+<p class="font-body-lg text-body-lg text-tertiary max-w-2xl mt-space-xs">
+          Experiencia verificable en infraestructura de alta criticidad en la zona central y sur de Chile.
+        </p>
+</div>
+<!-- Technical Tabular View -->
+<div class="bg-surface-container-lowest rounded-sm border border-[#E2E4DE] shadow-sm overflow-hidden">
+<!-- Table Header (Desktop) -->
+<div class="hidden lg:grid grid-cols-12 gap-4 bg-[#2E323D] text-surface-container-lowest px-6 py-3 font-label-technical text-label-technical tracking-wider uppercase">
+<div class="col-span-4">Proyecto &amp; Ubicación</div>
+<div class="col-span-5">Alcance Técnico del Contrato</div>
+<div class="col-span-2">Sector</div>
+<div class="col-span-1 text-right">Estado</div>
+</div>
+<!-- Project Rows -->
+<div class="divide-y divide-[#E2E4DE]">
+<!-- Row 1 -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-2 lg:gap-4 px-6 py-5 hover:bg-[#F9FAF7] transition-colors items-center">
+<div class="lg:col-span-4 flex flex-col">
+<span class="font-headline-sm text-headline-sm text-[#22252E] font-bold uppercase">Hospital Capredena</span>
+<span class="font-body-sm text-body-sm text-tertiary flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary">location_on</span> Limache, Región de Valparaíso
+              </span>
+</div>
+<div class="lg:col-span-5 text-body-sm text-[#22252E]">
+              Mantenimiento e infraestructura eléctrica crítica hospitalaria, tableros y respaldo.
+            </div>
+<div class="lg:col-span-2">
+<span class="inline-block bg-[#F3F4F1] border border-[#E2E4DE] text-[#22252E] px-2.5 py-1 rounded-sm font-label-technical text-label-technical font-bold uppercase">
+                Salud Pública
+              </span>
+</div>
+<div class="lg:col-span-1 flex lg:justify-end">
+<span class="inline-flex items-center gap-1.5 text-primary font-label-technical text-label-technical font-bold uppercase">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                Ejecutado
+              </span>
+</div>
+</div>
+<!-- Row 2 -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-2 lg:gap-4 px-6 py-5 hover:bg-[#F9FAF7] transition-colors items-center">
+<div class="lg:col-span-4 flex flex-col">
+<span class="font-headline-sm text-headline-sm text-[#22252E] font-bold uppercase">Hospital Biprovincial Quillota-Petorca</span>
+<span class="font-body-sm text-body-sm text-tertiary flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary">location_on</span> Quillota, Región de Valparaíso
+              </span>
+</div>
+<div class="lg:col-span-5 text-body-sm text-[#22252E]">
+              Instalaciones eléctricas y adecuaciones especializadas para recintos asistenciales de alta complejidad.
+            </div>
+<div class="lg:col-span-2">
+<span class="inline-block bg-[#F3F4F1] border border-[#E2E4DE] text-[#22252E] px-2.5 py-1 rounded-sm font-label-technical text-label-technical font-bold uppercase">
+                Salud Pública
+              </span>
+</div>
+<div class="lg:col-span-1 flex lg:justify-end">
+<span class="inline-flex items-center gap-1.5 text-primary font-label-technical text-label-technical font-bold uppercase">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                Ejecutado
+              </span>
+</div>
+</div>
+<!-- Row 3 -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-2 lg:gap-4 px-6 py-5 hover:bg-[#F9FAF7] transition-colors items-center">
+<div class="lg:col-span-4 flex flex-col">
+<span class="font-headline-sm text-headline-sm text-[#22252E] font-bold uppercase">Hospital San Camilo – Unidad Quimioterapia</span>
+<span class="font-body-sm text-body-sm text-tertiary flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary">location_on</span> San Felipe, Región de Valparaíso
+              </span>
+</div>
+<div class="lg:col-span-5 text-body-sm text-[#22252E]">
+              Habilitación civil y eléctrica de recintos clínicos protegidos y redes de alimentación segura.
+            </div>
+<div class="lg:col-span-2">
+<span class="inline-block bg-[#F3F4F1] border border-[#E2E4DE] text-[#22252E] px-2.5 py-1 rounded-sm font-label-technical text-label-technical font-bold uppercase">
+                Salud / Alta Especialidad
+              </span>
+</div>
+<div class="lg:col-span-1 flex lg:justify-end">
+<span class="inline-flex items-center gap-1.5 text-primary font-label-technical text-label-technical font-bold uppercase">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                Ejecutado
+              </span>
+</div>
+</div>
+<!-- Row 4 -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-2 lg:gap-4 px-6 py-5 hover:bg-[#F9FAF7] transition-colors items-center">
+<div class="lg:col-span-4 flex flex-col">
+<span class="font-headline-sm text-headline-sm text-[#22252E] font-bold uppercase">Bodegas San Ignacio</span>
+<span class="font-body-sm text-body-sm text-tertiary flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary">location_on</span> Quilicura, Región Metropolitana
+              </span>
+</div>
+<div class="lg:col-span-5 text-body-sm text-[#22252E]">
+              Redes de distribución eléctrica industrial, canalizaciones de gran envergadura e iluminación de alta eficiencia.
+            </div>
+<div class="lg:col-span-2">
+<span class="inline-block bg-[#F3F4F1] border border-[#E2E4DE] text-[#22252E] px-2.5 py-1 rounded-sm font-label-technical text-label-technical font-bold uppercase">
+                Logística e Industria
+              </span>
+</div>
+<div class="lg:col-span-1 flex lg:justify-end">
+<span class="inline-flex items-center gap-1.5 text-primary font-label-technical text-label-technical font-bold uppercase">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                Ejecutado
+              </span>
+</div>
+</div>
+<!-- Row 5 -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-2 lg:gap-4 px-6 py-5 hover:bg-[#F9FAF7] transition-colors items-center">
+<div class="lg:col-span-4 flex flex-col">
+<span class="font-headline-sm text-headline-sm text-[#22252E] font-bold uppercase">Canal del Chucao – Urbanización Eléctrica</span>
+<span class="font-body-sm text-body-sm text-tertiary flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary">location_on</span> Los Muermos, Región de Los Lagos
+              </span>
+</div>
+<div class="lg:col-span-5 text-body-sm text-[#22252E]">
+              Proyecto de electrificación, tendido de media/baja tensión y urbanización integral.
+            </div>
+<div class="lg:col-span-2">
+<span class="inline-block bg-[#F3F4F1] border border-[#E2E4DE] text-[#22252E] px-2.5 py-1 rounded-sm font-label-technical text-label-technical font-bold uppercase">
+                Obras Civiles y Energía
+              </span>
+</div>
+<div class="lg:col-span-1 flex lg:justify-end">
+<span class="inline-flex items-center gap-1.5 text-primary font-label-technical text-label-technical font-bold uppercase">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                Ejecutado
+              </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. NOSOTROS SECTION (Crisp White Background) -->
+<section class="w-full bg-surface-container-lowest py-space-3xl" id="nosotros">
+<div class="max-w-[1280px] mx-auto px-gutter">
+<!-- Section Header & Narrative -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter mb-space-2xl items-end">
+<div class="lg:col-span-7">
+<div class="flex items-center gap-2 mb-space-xs">
+<span class="w-2.5 h-2.5 bg-primary-container rounded-[1px]"></span>
+<span class="font-label-technical text-label-technical text-primary font-bold uppercase tracking-widest">Sobre iGEL</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-[#22252E] uppercase font-bold tracking-tight">
+            Más de una década construyendo en Chile
+          </h2>
+</div>
+<div class="lg:col-span-5">
+<p class="font-body-md text-body-md text-tertiary leading-relaxed">
+            Desde el año 2012, en iGEL Ingeniería y Construcción combinamos el rigor del cálculo técnico con la capacidad constructiva en terreno. Nuestra oficina central en Las Condes, Santiago, coordina operaciones especializadas en salud, minería secundaria, retail logístico e industria pesada, ofreciendo una respuesta ágil y responsable frente a contingencias operativas.
+          </p>
+</div>
+</div>
+<!-- 3 Key Highlight Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Highlight Card 1 -->
+<div class="bg-[#F3F4F1] p-space-lg rounded-sm border border-[#E2E4DE] relative flex flex-col justify-between">
+<div>
+<div class="w-10 h-1 bg-primary-container mb-space-md"></div>
+<h3 class="font-headline-md text-headline-md text-[#22252E] uppercase mb-space-sm leading-tight">
+              Obras y proyectos en un solo contrato
+            </h3>
+<p class="font-body-md text-body-md text-tertiary">
+              Centralizamos cálculo, adquisiciones, montaje y puesta en marcha para evitar desfases entre proyectistas y constructores.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-sm border-t border-[#E2E4DE] flex items-center justify-between text-outline">
+<span class="font-label-technical text-label-technical uppercase">Gestión Integrada</span>
+<span class="material-symbols-outlined text-[18px] text-primary">arrow_forward</span>
+</div>
+</div>
+<!-- Highlight Card 2 -->
+<div class="bg-[#F3F4F1] p-space-lg rounded-sm border border-[#E2E4DE] relative flex flex-col justify-between">
+<div>
+<div class="w-10 h-1 bg-primary-container mb-space-md"></div>
+<h3 class="font-headline-md text-headline-md text-[#22252E] uppercase mb-space-sm leading-tight">
+              Seguridad en cada instalación
+            </h3>
+<p class="font-body-md text-body-md text-tertiary">
+              Cumplimiento estricto de normas SEC, protocolos de seguridad para recintos hospitalarios activos y cero incidentes operacionales.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-sm border-t border-[#E2E4DE] flex items-center justify-between text-outline">
+<span class="font-label-technical text-label-technical uppercase">Compliance SEC</span>
+<span class="material-symbols-outlined text-[18px] text-primary">arrow_forward</span>
+</div>
+</div>
+<!-- Highlight Card 3 -->
+<div class="bg-[#F3F4F1] p-space-lg rounded-sm border border-[#E2E4DE] relative flex flex-col justify-between">
+<div>
+<div class="w-10 h-1 bg-primary-container mb-space-md"></div>
+<h3 class="font-headline-md text-headline-md text-[#22252E] uppercase mb-space-sm leading-tight">
+              Mantención preventiva y predictiva
+            </h3>
+<p class="font-body-md text-body-md text-tertiary">
+              Monitoreo térmico, análisis de calidad de energía y contratos de soporte continuo para evitar detenciones no programadas.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-sm border-t border-[#E2E4DE] flex items-center justify-between text-outline">
+<span class="font-label-technical text-label-technical uppercase">Continuidad 24/7</span>
+<span class="material-symbols-outlined text-[18px] text-primary">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. CONTACTO SECTION (Deep Charcoal Background) -->
+<section class="w-full bg-[#22252E] text-surface-container-lowest py-space-3xl" id="contacto">
+<div class="max-w-[1280px] mx-auto px-gutter">
+<!-- Section Header -->
+<div class="mb-space-2xl">
+<div class="flex items-center gap-2 mb-space-xs">
+<span class="w-2.5 h-2.5 bg-primary-container rounded-[1px]"></span>
+<span class="font-label-technical text-label-technical text-primary-container font-bold uppercase tracking-widest">Inicia tu proyecto</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-surface-container-lowest uppercase font-bold tracking-tight">
+          Cuéntanos tu proyecto
+        </h2>
+</div>
+<!-- Two-Column Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Left Column: Specs & Direct Contact -->
+<div class="lg:col-span-5 flex flex-col gap-space-lg">
+<p class="font-body-lg text-body-lg text-surface-variant leading-relaxed">
+            Evaluamos requerimientos técnicos para licitaciones públicas y privadas en todo el territorio nacional.
+          </p>
+<div class="flex flex-col gap-space-md">
+<!-- Address Card -->
+<div class="bg-[#2E323D] p-space-md rounded-sm border border-white/10 flex items-start gap-4">
+<span class="material-symbols-outlined text-primary-container text-[24px] mt-1">pin_drop</span>
+<div>
+<span class="font-label-technical text-label-technical text-surface-variant uppercase tracking-wider block">Dirección Central</span>
+<p class="font-body-md text-body-md text-surface-container-lowest font-medium mt-0.5">
+                  Apoquindo 6410, of. 605, Las Condes, Santiago de Chile.
+                </p>
+</div>
+</div>
+<!-- WhatsApp Card -->
+<div class="bg-[#2E323D] p-space-md rounded-sm border border-white/10 flex items-start gap-4">
+<span class="material-symbols-outlined text-primary-container text-[24px] mt-1">chat</span>
+<div>
+<span class="font-label-technical text-label-technical text-surface-variant uppercase tracking-wider block">WhatsApp Comercial Directo</span>
+<p class="font-body-md text-body-md text-surface-container-lowest font-medium mt-0.5">
+                  +56 9 8765 4321
+                </p>
+<span class="text-xs text-primary-container font-medium mt-1 inline-block">Atención técnica inmediata</span>
+</div>
+</div>
+<!-- Email Card -->
+<div class="bg-[#2E323D] p-space-md rounded-sm border border-white/10 flex items-start gap-4">
+<span class="material-symbols-outlined text-primary-container text-[24px] mt-1">mail</span>
+<div>
+<span class="font-label-technical text-label-technical text-surface-variant uppercase tracking-wider block">Email Corporativo</span>
+<p class="font-body-md text-body-md text-surface-container-lowest font-medium mt-0.5">
+                  contacto@igel.cl / licitaciones@igel.cl
+                </p>
+</div>
+</div>
+<!-- Horario Card -->
+<div class="bg-[#2E323D] p-space-md rounded-sm border border-white/10 flex items-start gap-4">
+<span class="material-symbols-outlined text-primary-container text-[24px] mt-1">schedule</span>
+<div>
+<span class="font-label-technical text-label-technical text-surface-variant uppercase tracking-wider block">Horario de Atención</span>
+<p class="font-body-md text-body-md text-surface-container-lowest font-medium mt-0.5">
+                  Lunes a Viernes 08:30 a 18:30 hrs.
+                </p>
+</div>
+</div>
+</div>
+<!-- Logo Brand Attachment -->
+<div class="pt-space-md">
+<img alt="Logo iGEL Ingeniería y Construcción" class="h-10 w-auto opacity-80" src="logo-igel.png"/>
+</div>
+</div>
+<!-- Right Column: White Form Card -->
+<div class="lg:col-span-7 bg-surface-container-lowest text-[#22252E] p-space-xl rounded-sm border border-[#E2E4DE] shadow-xl">
+<div class="mb-space-lg">
+<h3 class="font-headline-md text-headline-md text-[#22252E] uppercase font-bold">
+              Solicitud técnica y cotización
+            </h3>
+<p class="font-body-sm text-body-sm text-tertiary mt-1">
+              Completa el formulario y se abrirá un correo con los datos de tu solicitud.
+            </p>
+</div>
+<form class="flex flex-col gap-space-md" id="contact-form" onsubmit="event.preventDefault(); const f=this; const body=`Nombre: ${f.querySelector('#nombre').value}%0D%0AEmpresa: ${f.querySelector('#empresa').value}%0D%0AServicio: ${f.querySelector('#servicio').selectedOptions[0].text}%0D%0ADescripción: ${f.querySelector('#mensaje').value}`; window.location.href=`mailto:licitaciones@igel.cl?subject=${encodeURIComponent('Solicitud de cotización iGEL')}&body=${encodeURIComponent(body)}`;">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-body-sm text-body-sm font-semibold text-[#22252E]" for="nombre">Nombre y Apellido</label>
+<input class="w-full h-11 px-3 bg-surface border border-[#E2E4DE] rounded-sm text-body-md focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all" id="nombre" placeholder="Ej. Carlos Morales" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-body-sm text-body-sm font-semibold text-[#22252E]" for="empresa">Empresa o Institución</label>
+<input class="w-full h-11 px-3 bg-surface border border-[#E2E4DE] rounded-sm text-body-md focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all" id="empresa" placeholder="Ej. Clínica o Constructora SpA" required="" type="text"/>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-body-sm text-body-sm font-semibold text-[#22252E]" for="servicio">Servicio que necesitas</label>
+<select class="w-full h-11 px-3 bg-surface border border-[#E2E4DE] rounded-sm text-body-md focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all" id="servicio">
+<option value="electrica">Ingeniería Eléctrica y Tableros</option>
+<option value="solar">Energías Renovables y Solar</option>
+<option value="civil">Obras Civiles y Habilitación</option>
+<option value="tarifario">Estudio Tarifario / Auditoría</option>
+<option value="mantencion">Mantención Continua</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-body-sm text-body-sm font-semibold text-[#22252E]" for="mensaje">Mensaje / Descripción del proyecto</label>
+<textarea class="w-full p-3 bg-surface border border-[#E2E4DE] rounded-sm text-body-md focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all resize-y" id="mensaje" placeholder="Detalla el alcance, ubicación y plazos estimados..." required="" rows="4"></textarea>
+</div>
+<button class="w-full bg-primary-container hover:bg-[#7fb636] text-[#22252E] font-headline-sm text-headline-sm py-3.5 px-6 rounded-sm font-bold uppercase tracking-wide flex items-center justify-center gap-2 transition-colors mt-2" type="submit">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+<span>Enviar cotización por correo</span>
+</button>
+<p class="font-body-sm text-body-sm text-center text-outline mt-1">
+              Respuesta en menos de 24 horas hábiles por ingenieros especialistas.
+            </p>
+</form>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-inverse-surface text-surface-variant"><div class="max-w-[1280px] mx-auto px-gutter pt-space-2xl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-12 gap-gutter pb-space-xl border-b border-outline/30"><div class="md:col-span-5 flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><span class="font-headline-md text-headline-md text-surface-container-lowest tracking-tight">iGEL</span><span class="font-label-technical text-label-technical text-primary-container bg-inverse-surface px-2 py-0.5 border border-primary-container/40 rounded-lg">CHILE SEC CLASE A</span></div><p class="font-body-sm text-body-sm text-surface-variant max-w-sm mt-2 leading-relaxed">Soluciones de ingeniería eléctrica, infraestructura de energía renovable y obras civiles de alta exigencia operacional.</p><div class="flex items-center gap-space-xs text-primary-container font-label-technical text-label-technical mt-2"><span class="material-symbols-outlined text-[16px]">domain</span><span>CASA MATRIZ: LAS CONDES, SANTIAGO DE CHILE</span></div></div><div class="md:col-span-4 flex flex-col gap-space-xs"><span class="font-headline-sm text-headline-sm text-surface-container-lowest uppercase tracking-wider mb-2">Contacto Operacional</span><div class="flex items-center gap-2 font-body-sm text-body-sm text-surface-variant"><span class="material-symbols-outlined text-[18px] text-primary-container">call</span><span>+56 2 2940 3000</span></div><div class="flex items-center gap-2 font-body-sm text-body-sm text-surface-variant"><span class="material-symbols-outlined text-[18px] text-primary-container">mail</span><span>proyectos@igel.cl</span></div><div class="flex items-center gap-2 font-body-sm text-body-sm text-surface-variant"><span class="material-symbols-outlined text-[18px] text-primary-container">location_on</span><span>Av. Apoquindo 4700, Las Condes</span></div></div><div class="md:col-span-3 flex flex-col gap-space-xs"><span class="font-headline-sm text-headline-sm text-surface-container-lowest uppercase tracking-wider mb-2">Comunidad y Redes</span><a class="flex items-center gap-2 font-body-sm text-body-sm text-surface-variant hover:text-primary-container transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">photo_camera</span><span>@ingenieria_igel</span></a><span class="font-label-technical text-label-technical text-outline-variant mt-2">SISTEMA INTEGRADO DE GESTIÓN ISO 9001:2015</span></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-outline-variant"><p class="text-center md:text-left">© 2024 iGEL Ingeniería y Construcción SpA. Fundada en 2012. Las Condes, Santiago de Chile. Todos los derechos reservados.</p><div class="flex items-center gap-space-md font-label-technical text-label-technical text-surface-variant"><a class="hover:text-surface-container-lowest transition-colors" data-path="politicas" href="#">TÉRMINOS Y COMPLIANCE</a><span class="text-outline">|</span><a class="hover:text-surface-container-lowest transition-colors" data-path="calidad" href="#">CERTIFICACIONES</a></div></div></div></footer></body></html>
+
